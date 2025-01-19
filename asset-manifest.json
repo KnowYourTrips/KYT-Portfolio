@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/KYT-Portfolio/static/css/main.64a6a378.css",
-    "main.js": "/KYT-Portfolio/static/js/main.aa9e45a6.js",
+    "main.css": "/KYT-Portfolio/static/css/main.44d19fdf.css",
+    "main.js": "/KYT-Portfolio/static/js/main.15ae3b89.js",
     "static/media/home-banner-image.png": "/KYT-Portfolio/static/media/home-banner-image.6df4d11fb387250fc0dc.png",
     "static/media/AboutImage.png": "/KYT-Portfolio/static/media/AboutImage.5b2456f39267ed8f2d80.png",
     "static/media/KnowYourTrips-Flow.png": "/KYT-Portfolio/static/media/KnowYourTrips-Flow.f1197c0787de4601066f.png",
@@ -13,11 +13,11 @@
     "static/media/blog-image.png": "/KYT-Portfolio/static/media/blog-image.af390f5b8a98204ff8c8.png",
     "static/media/flight-image.png": "/KYT-Portfolio/static/media/flight-image.6eaf438e5989e73b2ead.png",
     "index.html": "/KYT-Portfolio/index.html",
-    "main.64a6a378.css.map": "/KYT-Portfolio/static/css/main.64a6a378.css.map",
-    "main.aa9e45a6.js.map": "/KYT-Portfolio/static/js/main.aa9e45a6.js.map"
+    "main.44d19fdf.css.map": "/KYT-Portfolio/static/css/main.44d19fdf.css.map",
+    "main.15ae3b89.js.map": "/KYT-Portfolio/static/js/main.15ae3b89.js.map"
   },
   "entrypoints": [
-    "static/css/main.64a6a378.css",
-    "static/js/main.aa9e45a6.js"
+    "static/css/main.44d19fdf.css",
+    "static/js/main.15ae3b89.js"
   ]
 }
