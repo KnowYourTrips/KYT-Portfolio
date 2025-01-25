@@ -1,23 +1,18 @@
 {
   "files": {
     "main.css": "/KYT-Portfolio/static/css/main.955eb634.css",
-    "main.js": "/KYT-Portfolio/static/js/main.fd0fcf8d.js",
+    "main.js": "/KYT-Portfolio/static/js/main.a4e79ee4.js",
     "static/media/home-banner-image.png": "/KYT-Portfolio/static/media/home-banner-image.6df4d11fb387250fc0dc.png",
     "static/media/AboutImage.png": "/KYT-Portfolio/static/media/AboutImage.5b2456f39267ed8f2d80.png",
     "static/media/KnowYourTrips-Flow.png": "/KYT-Portfolio/static/media/KnowYourTrips-Flow.f1197c0787de4601066f.png",
-    "static/media/mytrips-image.png": "/KYT-Portfolio/static/media/mytrips-image.d54458a624efac4448ab.png",
-    "static/media/airport-image.png": "/KYT-Portfolio/static/media/airport-image.380898f790e33a34a409.png",
-    "static/media/trips-image.png": "/KYT-Portfolio/static/media/trips-image.a830921e4fd89dd8c279.png",
     "static/media/logo.png": "/KYT-Portfolio/static/media/logo.db72b5756defc1c75b3e.png",
     "static/media/home-banner-background.png": "/KYT-Portfolio/static/media/home-banner-background.0810e6f2c0da81fb7e09.png",
-    "static/media/blog-image.png": "/KYT-Portfolio/static/media/blog-image.af390f5b8a98204ff8c8.png",
-    "static/media/flight-image.png": "/KYT-Portfolio/static/media/flight-image.6eaf438e5989e73b2ead.png",
     "index.html": "/KYT-Portfolio/index.html",
     "main.955eb634.css.map": "/KYT-Portfolio/static/css/main.955eb634.css.map",
-    "main.fd0fcf8d.js.map": "/KYT-Portfolio/static/js/main.fd0fcf8d.js.map"
+    "main.a4e79ee4.js.map": "/KYT-Portfolio/static/js/main.a4e79ee4.js.map"
   },
   "entrypoints": [
     "static/css/main.955eb634.css",
-    "static/js/main.fd0fcf8d.js"
+    "static/js/main.a4e79ee4.js"
   ]
 }
