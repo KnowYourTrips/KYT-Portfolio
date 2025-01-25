@@ -14,7 +14,7 @@ const Contact = () => {
     const msg = document.getElementById("msg");
     const emailField = document.getElementById("email");
 
-    if (!emailField.value.match(/^[A-Za-z\._\-0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
+    if (!emailField.value.match(/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/)) {
       setButtonText("Submit");
       setLoading(false);
       msg.style.color = "red";

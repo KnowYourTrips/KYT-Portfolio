@@ -1,6 +1,5 @@
 import React from "react";
 import AboutBackground from "../assets/about-background.png";
-import MyTripsPage from "../assets/mytrips-image.png";
 import AboutImage from "../assets/AboutImage.png";
 
 const About = () => {
@@ -11,7 +10,6 @@ const About = () => {
       </div>
       <div className="about-section-image-container">
         <img src={AboutImage} alt="" className="homepage-image" />
-        {/* <img src={MyTripsPage} alt="" className="mytrips-image" /> */}
       </div>
       <div className="about-section-text-container">
         <p className="primary-subheading">About</p>
