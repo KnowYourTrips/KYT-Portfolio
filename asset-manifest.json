@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/KYT-Portfolio/static/css/main.955eb634.css",
-    "main.js": "/KYT-Portfolio/static/js/main.a4e79ee4.js",
-    "static/media/home-banner-image.png": "/KYT-Portfolio/static/media/home-banner-image.6df4d11fb387250fc0dc.png",
-    "static/media/AboutImage.png": "/KYT-Portfolio/static/media/AboutImage.5b2456f39267ed8f2d80.png",
-    "static/media/KnowYourTrips-Flow.png": "/KYT-Portfolio/static/media/KnowYourTrips-Flow.f1197c0787de4601066f.png",
-    "static/media/logo.png": "/KYT-Portfolio/static/media/logo.db72b5756defc1c75b3e.png",
-    "static/media/home-banner-background.png": "/KYT-Portfolio/static/media/home-banner-background.0810e6f2c0da81fb7e09.png",
-    "index.html": "/KYT-Portfolio/index.html",
-    "main.955eb634.css.map": "/KYT-Portfolio/static/css/main.955eb634.css.map",
-    "main.a4e79ee4.js.map": "/KYT-Portfolio/static/js/main.a4e79ee4.js.map"
+    "main.css": "./static/css/main.57195e7c.css",
+    "main.js": "./static/js/main.e2dc4f13.js",
+    "static/media/home-banner-image.png": "./static/media/home-banner-image.6df4d11fb387250fc0dc.png",
+    "static/media/AboutImage.png": "./static/media/AboutImage.5b2456f39267ed8f2d80.png",
+    "static/media/Explore.png": "./static/media/Explore.4fe24f2fe6e82ef39fcf.png",
+    "static/media/Blog.png": "./static/media/Blog.a53e3f5f6aa8f6974c7c.png",
+    "static/media/Social.png": "./static/media/Social.269a679eef846ef360fc.png",
+    "static/media/Itinerary.png": "./static/media/Itinerary.3e1f08ad8eaa122d9526.png",
+    "static/media/logo.png": "./static/media/logo.db72b5756defc1c75b3e.png",
+    "static/media/home-banner-background.png": "./static/media/home-banner-background.0810e6f2c0da81fb7e09.png",
+    "index.html": "./index.html",
+    "main.57195e7c.css.map": "./static/css/main.57195e7c.css.map",
+    "main.e2dc4f13.js.map": "./static/js/main.e2dc4f13.js.map"
   },
   "entrypoints": [
-    "static/css/main.955eb634.css",
-    "static/js/main.a4e79ee4.js"
+    "static/css/main.57195e7c.css",
+    "static/js/main.e2dc4f13.js"
   ]
 }
