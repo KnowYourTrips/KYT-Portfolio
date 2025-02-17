@@ -9,7 +9,7 @@ const Work = ({ imageUrls }) => {
   useEffect(() => {
     const interval = setInterval(() => {
       setImageIndex((index) => (index === imageUrls.length - 1 ? 0 : index + 1));
-    }, 3000); // Change image every 3 seconds
+    }, 5000); // Change image every 3 seconds
 
     return () => clearInterval(interval); // Cleanup interval on component unmount
   }, [imageUrls.length]);
