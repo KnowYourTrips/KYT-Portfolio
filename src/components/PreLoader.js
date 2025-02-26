@@ -7,13 +7,13 @@ const PreLoader = () => {
     useEffect(() => {
         preLoaderAnim();
     }, []);
-    
+
     return (
         <div className="preloader">
             <div className="texts-container">
-                <span>Stress.</span>
-                <span>Free.</span>
+                <span>Plan.</span>
                 <span>Travel.</span>
+                <span>Relax.</span>
             </div>
         </div>
     );
