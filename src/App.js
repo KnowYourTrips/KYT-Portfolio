@@ -4,6 +4,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Work from './components/Work';
+import PreLoader from './components/PreLoader';
 
 import Itinerary from "./assets/Itinerary.png";
 import Explore from "./assets/Explore.png";
@@ -14,7 +15,10 @@ const IMAGES = [Itinerary, Explore, Social, Blog];
 
 function App() {
   return (
-    <div className="App">
+    <>
+      <PreLoader />
+
+      <div className="App">
       <div id='home'>
         <Home />
       </div>
@@ -31,6 +35,8 @@ function App() {
         <Footer />
       </div>
     </div>
+    </>
+    
   )
 }
 
