@@ -1,4 +1,5 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
+
 
 const Contact = () => {
 
@@ -53,7 +54,9 @@ const Contact = () => {
             type="text"
             disabled={loading}
             placeholder="yourmail@gmail.com" />
-          <button className="secondary-button" disabled={loading}>{buttonText}</button>
+          <button className="secondary-button" disabled={loading}>
+            <span className="button-text">{buttonText}</span>
+          </button>
         </div>
         <span id="msg" className="contact-form-message"></span>
       </form>
