@@ -8,6 +8,7 @@ import Navbar from './components/Navbar';
 import Work from './components/Work';
 import PreLoader from './components/PreLoader';
 import Privacy from './components/Privacy';
+import Partners from './components/Partners';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 
 import Itinerary from "./assets/Itinerary.png";
@@ -35,6 +36,9 @@ function App() {
             </div>
             <div id='work'>
               <Work imageUrls={IMAGES} />
+            </div>
+            <div id='partners'>
+              <Partners />
             </div>
             <div id='contact'>
               <Contact />

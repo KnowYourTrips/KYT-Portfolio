@@ -49,6 +49,7 @@ const Navbar = () => {
           <>
             <a href="/#about">About</a>
             <a href="/#work">How it Works</a>
+            <a href="/#partners">Partners</a>
             <a href="/#contact">Get App</a>
             <a href="/privacy">Privacy</a>
           </>

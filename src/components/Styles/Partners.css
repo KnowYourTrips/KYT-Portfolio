@@ -1,0 +1,26 @@
+.partners-container {
+    text-align: center;
+    margin: 4rem 0;
+    padding: 2rem;
+    background-color: #f9f9f9; /* Optional: Add a light background color */
+  }
+  
+  .partners-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    font-family: 'Jost', sans-serif !important;
+    font-weight: 700;
+  }
+  
+  .partners-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+  }
+  
+  .partner-logo {
+    width: 150px; /* Adjust the size of the logos */
+    height: auto;
+  }
