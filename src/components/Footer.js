@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../assets/logo.png";
+import CompanyName from "../assets/CompanyName.png";
 import { IoMail } from "react-icons/io5";
 
 const Footer = () => {
@@ -14,7 +15,8 @@ const Footer = () => {
     <div className="footer-wrapper">
       <div className="footer-section-two">
         <div className="footer-logo-container">
-          <img src={Logo} alt="" />
+          <img className="company-logo" src={CompanyName} alt="" />
+          <img className="app-logo" src={Logo} alt="" />
         </div>
         <div className="footer-section-one">
           <div className="footer-icons">

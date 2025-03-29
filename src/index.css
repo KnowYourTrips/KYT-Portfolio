@@ -38,6 +38,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   min-height: 90px;
+  width: 100%;
 }
 
 .navbar-menu-container {
@@ -45,7 +46,7 @@ nav {
 }
 
 .navbar-links-container a {
-  margin-right: 3rem;
+  margin-right: 2rem;
   text-decoration: none;
   color: black;
   font-size: 1.1rem;
@@ -116,11 +117,38 @@ nav {
   max-width: 600px;
 }
 
+.primary-heading-privacy {
+  font-size: 3rem;
+  color: black;
+  max-width: auto;
+}
+
 .primary-text {
   font-size: clamp(1rem, 3vw, 1.5rem);
   max-width: 500px;
   color: #6a6a6a;
   margin: 1.5rem 0rem;
+}
+
+.primary-text-privacy {
+  font-size: 1rem;
+  max-width: auto;
+  color: black;
+  margin: 1.5rem 0rem;
+}
+
+.primary-text-privacy-headers{
+  font-size: 1rem;
+  max-width: 500px;
+  color: black;
+  margin: 1.5rem 0rem;
+  font-weight: 600;
+}
+
+.primary-text-privacy ul {
+  margin-left: 1.5rem; /* Indent the list to the right */
+  padding-left: 1rem; /* Optional: Add padding for extra spacing */
+  list-style-type: disc; /* Ensure bullet points are visible */
 }
 
 .secondary-button {
@@ -213,6 +241,17 @@ nav {
   flex-direction: column;
 }
 
+.privacy-section-text-container {
+  margin-top: 4rem;
+}
+
+.privacy-section-container {
+  background-color: #5854f4;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+}
+
 .primary-subheading {
   font-weight: 700;
   color: #fe9e0d;
@@ -301,7 +340,8 @@ nav {
 }
 
 .footer-logo-container {
-  width: 250px;
+  display: flex; /* Enable flexbox for horizontal alignment */
+  align-items: center; /* Vertically align items */
 }
 
 .footer-icons {
@@ -346,6 +386,10 @@ nav {
   font-weight: 600;
   color: #4c4c4c;
   cursor: pointer;
+}
+
+#footer {
+  margin-top: auto;
 }
 
 .testimonial-section-bottom {
@@ -509,10 +553,19 @@ nav {
   font-weight: 600;
 }
 
-.nav-logo-container img {
-  max-width: 400px;
-  margin-top: 1rem;
-  width: 100%;
+.nav-logo-container {
+  display: flex; /* Enable flexbox for horizontal alignment */
+  align-items: center; /* Vertically align items */
+}
+
+.company-logo {
+  width: 100%; /* Adjust size as needed */
+  height: auto;
+}
+
+.app-logo {
+  padding-bottom: 10px;
+  width: 50%; /* Adjust size as needed */
   height: auto;
 }
 
@@ -635,6 +688,7 @@ nav {
 
   .App {
     max-width: 95vw;
+    min-height: 100vh;
   }
 }
 
