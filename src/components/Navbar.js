@@ -14,14 +14,16 @@ import ListItemText from "@mui/material/ListItemText";
 import InfoIcon from "@mui/icons-material/Info";
 import { Download } from "@mui/icons-material";
 import { QuestionMark } from "@mui/icons-material";
+import { useLocation } from "react-router-dom";
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
+  const location = useLocation();
   const menuOptions = [
     {
       text: "About",
       icon: <InfoIcon />,
-      href: "#about", 
+      href: "#about",
     },
     {
       text: "How it Works",
@@ -41,11 +43,16 @@ const Navbar = () => {
         <img className="app-logo" src={Logo} alt="" />
       </div>
       <div className="navbar-links-container">
-        <a href="/">Home</a>
-        <a href="/#about">About</a>
-        <a href="/#work">How it Works</a>
-        <a href="/#contact">Get App</a>
-        <a href="/privacy">Privacy</a>
+        {location.pathname === "/privacy" ? (
+          <a href="/">Home</a>
+        ) : (
+          <>
+            <a href="/#about">About</a>
+            <a href="/#work">How it Works</a>
+            <a href="/#contact">Get App</a>
+            <a href="/privacy">Privacy</a>
+          </>
+        )}
       </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
