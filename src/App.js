@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './index.css';
 import Home from './components/Home';
 import About from './components/About';
@@ -20,6 +20,29 @@ const IMAGES = [Itinerary, Explore, Social, Blog];
 
 function App() {
   const location = useLocation();
+  const [showScrollButton, setShowScrollButton] = useState(false);
+
+  // Show the scroll-to-top button when the user scrolls down
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 300) {
+        setShowScrollButton(true);
+      } else {
+        setShowScrollButton(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  // Scroll to the top of the page
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
 
   return (
     <div className="App">
@@ -48,6 +71,13 @@ function App() {
         <Route path="/privacy" element={<Privacy />} />
       </Routes>
       <Footer />
+
+      {/* Floating Scroll-to-Top Button */}
+      {showScrollButton && (
+        <button className="scroll-to-top" onClick={scrollToTop}>
+          ↑
+        </button>
+      )}
     </div>
   );
 }
