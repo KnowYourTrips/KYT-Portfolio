@@ -43,15 +43,15 @@ const Navbar = () => {
         <img className="app-logo" src={Logo} alt="" />
       </div>
       <div className="navbar-links-container">
-        {location.pathname === "/privacy" ? (
+        {location.pathname === "/privacy" || location.pathname === "/contact" ? (
           <a href="/">Home</a>
         ) : (
           <>
-            <a href="/#about">About</a>
             <a href="/#work">How it Works</a>
             <a href="/#partners">Partners</a>
             <a href="/#contact">Get App</a>
             <a href="/privacy">Privacy</a>
+            <a href="/contact">Contact</a>
           </>
         )}
       </div>

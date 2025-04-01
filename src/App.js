@@ -9,6 +9,7 @@ import Work from './components/Work';
 import PreLoader from './components/PreLoader';
 import Privacy from './components/Privacy';
 import Partners from './components/Partners';
+import ContactPage from './components/ContactPage';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 
 import Itinerary from "./assets/Itinerary.png";
@@ -47,7 +48,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      {location.pathname !== "/privacy" && <PreLoader />}
+      {location.pathname !== "/privacy" && location.pathname !== "/contact" && <PreLoader />}
       <Routes>
         <Route path="/" element={
           <>
@@ -69,6 +70,7 @@ function App() {
           </>
         } />
         <Route path="/privacy" element={<Privacy />} />
+        <Route path="/contact" element={<ContactPage />} />
       </Routes>
       <Footer />
 
