@@ -1,6 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Privacy = () => {
+
+    const [showModal, setShowModal] = useState(false);
+
+    const handleOpenModal = () => {
+        setShowModal(true);
+    };
+
+    const handleCloseModal = () => {
+        setShowModal(false);
+    };
+
     return (
         <div className="privacy-section-container">
             <div className="privacy-section-text-container">
@@ -133,6 +144,123 @@ const Privacy = () => {
                     <br />
                     knowyourtrips@gmail.com
                 </p>
+                <br />
+                <br />
+                <p className="primary-text-privacy">
+                    By using our app, you agree to our <span className="terms-link" onClick={handleOpenModal}>Terms and Conditions</span>.
+                </p>
+                {
+                    showModal && (
+                        <div className="modal-overlay">
+                            <div className="modal-content">
+                                <h2 className="primary-text-privacy-headers">Terms and Conditions</h2>
+                                <p className="primary-text-privacy">
+                                    <strong>Effective Date:</strong> 02/04/2025
+                                    <br />
+                                    <strong>Last Updated:</strong> 02/04/2025
+                                    <br />
+                                    <br />
+                                    This End User License Agreement (“Agreement”) is a legal agreement between user and <strong>Know Your Trips (KYT)</strong>, governing your use of the  mobile application.
+                                    <br />
+                                    <br />
+                                    By downloading, installing, or using the App, you agree to be bound by this Agreement. If you do not agree to these terms, do not use the App.
+                                    <br />
+                                    <br />
+                                    <hr />
+                                    <p className="primary-text-privacy-headers">
+                                        1. License Grant
+                                    </p>
+                                    <p className="primary-text-privacy">
+                                        KYT grants you a personal, non-transferable, non-exclusive, revocable license to download, install, and use the App solely for personal, non-commercial purposes in accordance with this Agreement.
+                                    </p>
+                                    <hr />
+                                    <p className="primary-text-privacy-headers">
+                                        2. User Conduct & Community Guidelines
+                                    </p>
+                                    <p className="primary-text-privacy">
+                                        KYT is committed to providing a safe and respectful environment for all users. You agree <strong>not to post, share, or engage in</strong> the following:
+                                        <br />
+                                        <br />
+                                        <ul>
+                                            <li>Objectionable, abusive, harassing, or threatening content.</li>
+                                            <li>Hate speech, discriminatory language, or bullying.</li>
+                                            <li>Sexually explicit material or violence.</li>
+                                            <li>Spam, scams, or misleading/fraudulent information.</li>
+                                        </ul>
+                                        <br />
+                                        <strong>KYT enforces a zero-tolerance policy</strong> on such behavior. Violation may result in content removal, suspension, or permanent account deactivation.
+                                    </p>
+                                    <hr />
+                                    <p className="primary-text-privacy-headers">
+                                        3. Filtering & Moderation
+                                    </p>
+                                    <p className="primary-text-privacy">
+                                        KYT implements moderation and filtering mechanisms to detect and reduce objectionable content. All user-generated content is subject to review and may be removed without notice if it violates this Agreement.
+                                    </p>
+                                    <hr />
+                                    <p className="primary-text-privacy-headers">
+                                        4. Reporting Objectionable Content
+                                    </p>
+                                    <p className="primary-text-privacy">
+                                        Users can <strong>flag inappropriate or abusive content</strong> directly in the app using the “Report” feature. All reports will be reviewed within <strong>24 hours</strong>, and appropriate action will be taken, which may include content removal and user suspension.
+                                    </p>
+                                    <hr />
+                                    <p className="primary-text-privacy-headers">
+                                        5. Blocking Other Users
+                                    </p>
+                                    <p className="primary-text-privacy">
+                                        Users may <strong>block other users</strong> from interacting with them within the app. Blocking prevents direct messages and hides content from the blocked user.
+                                    </p>
+                                    <hr />
+                                    <p className="primary-text-privacy-headers">
+                                        6. User Data & Privacy
+                                    </p>
+                                    <p className="primary-text-privacy">
+                                        Use of the App is also governed by our <strong>Privacy Policy</strong> <a href="https://knowyourtrips.com/privacy" target="_blank" rel="noopener noreferrer">
+                                            [https://knowyourtrips.com/privacy]
+                                        </a>, which outlines how user data is collected, stored, and processed.
+                                    </p>
+                                    <hr />
+                                    <p className="primary-text-privacy-headers">
+                                        7. Termination
+                                    </p>
+                                    <p className="primary-text-privacy">
+                                        We reserve the right to suspend or terminate your access to the App at any time, without prior notice, for any conduct that we believe violates this Agreement or is harmful to other users or KYT.
+                                    </p>
+                                    <hr />
+                                    <p className="primary-text-privacy-headers">
+                                        8. Disclaimer
+                                    </p>
+                                    <p className="primary-text-privacy">
+                                        The App is provided “as is” without warranties of any kind. We do not guarantee uninterrupted or error-free operation, nor do we accept liability for loss of data, travel delays, or service interruptions.
+                                    </p>
+                                    <hr />
+                                    <p className="primary-text-privacy-headers">
+                                        9. Changes to this Agreement
+                                    </p>
+                                    <p className="primary-text-privacy">
+                                        We may update this Agreement at any time. Changes will be posted in-app or on our website. Continued use of the App after changes means you accept the updated terms.
+                                    </p>
+                                    <hr />
+                                    <p className="primary-text-privacy-headers">
+                                        10. Contact Us
+                                    </p>
+                                    <p className="primary-text-privacy">
+                                        If you have questions about this Agreement or need to report urgent issues, please contact us at:
+                                    </p>
+                                    📧 knowyourtrips@gmail.com
+                                    <hr />
+                                    <br />
+                                    <strong>By continuing to use KYT, you acknowledge that you have read, understood, and agreed to the terms of this End User License Agreement.</strong>
+                                </p>
+                                <button className="close-button" onClick={handleCloseModal}>
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    )
+                }
+
             </div>
         </div>
     );
