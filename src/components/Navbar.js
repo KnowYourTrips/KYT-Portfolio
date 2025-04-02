@@ -12,8 +12,7 @@ import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import InfoIcon from "@mui/icons-material/Info";
-import { Download } from "@mui/icons-material";
-import { QuestionMark } from "@mui/icons-material";
+import { Phone, Home } from "@mui/icons-material";
 import { useLocation } from "react-router-dom";
 
 const Navbar = () => {
@@ -21,19 +20,19 @@ const Navbar = () => {
   const location = useLocation();
   const menuOptions = [
     {
-      text: "About",
+      text: "Home",
+      icon: <Home />,
+      href: "/",
+    },
+    {
+      text: "Privacy Policy",
       icon: <InfoIcon />,
-      href: "#about",
+      href: "/privacy",
     },
     {
-      text: "How it Works",
-      icon: <QuestionMark />,
-      href: "#work",
-    },
-    {
-      text: "Get App",
-      icon: <Download />,
-      href: "#contact",
+      text: "Contact Us",
+      icon: <Phone />,
+      href: "/contact",
     },
   ];
   return (

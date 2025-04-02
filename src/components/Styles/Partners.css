@@ -1,26 +1,48 @@
 .partners-container {
-    text-align: center;
-    margin: 4rem 0;
-    padding: 2rem;
-    background-color: #f9f9f9; /* Optional: Add a light background color */
+  text-align: center;
+  margin: 4rem 0;
+  padding: 2rem;
+  background-color: white; /* Optional: Add a light background color */
+}
+
+.partners-title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 700;
+}
+
+.partners-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+}
+
+.partner-logo {
+  width: 150px; /* Adjust the size of the logos */
+  height: auto;
+}
+
+/* Media Query for Mobile Screens */
+@media (max-width: 768px) {
+  .partners-container {
+    margin: 2rem 0; /* Reduce margin for smaller screens */
+    padding: 1rem; /* Reduce padding for smaller screens */
   }
-  
+
   .partners-title {
-    font-size: 2rem;
-    color: #333;
-    margin-bottom: 1.5rem;
-    font-family: 'Jost', sans-serif !important;
-    font-weight: 700;
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
+    margin-bottom: 2rem;
   }
-  
+
   .partners-logos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10rem;
+    flex-direction: column; /* Stack logos vertically on smaller screens */
+    gap: 2rem; /* Reduce gap between logos */
   }
-  
+
   .partner-logo {
-    width: 150px; /* Adjust the size of the logos */
-    height: auto;
+    width: 100px; /* Reduce logo size for smaller screens */
   }
+}

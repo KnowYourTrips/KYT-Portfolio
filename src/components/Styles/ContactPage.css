@@ -4,7 +4,7 @@
   padding: 2rem;
   background-color: #f9f9f9;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(143, 56, 56, 0.1);
+  box-shadow: 0 4px 6px rgba(56, 143, 60, 0.1);
 }
 
 .contact-page-container h2 {
@@ -21,14 +21,14 @@
 }
 
 .contact-form label {
-    font-family: 'Jost', sans-serif !important;
+    font-family: 'Poppins', sans-serif !important;
   font-size: 1rem;
   color: #555;
 }
 
 .contact-form input,
 .contact-form textarea {
-    font-family: 'Jost', sans-serif !important;
+    font-family: 'Poppins', sans-serif !important;
   padding: 0.75rem;
   font-size: 1rem;
   border: 1px solid #ccc;
