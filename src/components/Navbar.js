@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
-import Logo from "../assets/logo.png";
-import CompanyName from "../assets/CompanyName.png";
+import Logo from "../assets/logo.svg";
+import CompanyName from "../assets/CompanyName.svg";
 import { HiOutlineBars3 } from "react-icons/hi2";
 import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";

@@ -788,6 +788,22 @@ nav {
   .about-background-image-container {
     display: none;
   }
+  
+  .nav-logo-container {
+    justify-content: center; /* Center the logo horizontally */
+    max-width: 150px; /* Adjust the maximum width for smaller screens */
+    margin: 0 auto; /* Center the container */
+  }
+
+  .company-logo {
+    width: 100%; /* Ensure the logo scales properly */
+    height: auto;
+  }
+
+  .app-logo {
+    width: 80%; /* Adjust size for smaller screens */
+    height: auto;
+  }
 
   .about-section-image-container {
     display: flex;
