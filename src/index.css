@@ -239,6 +239,7 @@ nav {
   justify-content: center;
   display: flex;
   flex-direction: column;
+  margin-left: 10rem;
 }
 
 .privacy-section-text-container {
@@ -660,6 +661,29 @@ nav {
   cursor: pointer;
 }
 
+.about-section-video-container {
+  flex: 0.9;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px; /* Adjust the max width as needed */
+  background-color: #f9f9f9; /* Light gray background color */
+  border-radius: 12px; /* Rounded corners */
+  padding: 1rem; /* Add padding inside the container */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+}
+
+.homepage-video {
+  width: 100%;
+  max-width: 400px; /* Adjust the max width as needed */
+  height: auto;
+  padding: 2rem;
+  border-radius: 8px; /* Optional: Add rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+}
+
 
 
 @media (max-width: 1000px) {
@@ -858,5 +882,30 @@ nav {
     left: 50%;
     transform: translate(-50%);
     padding: 0;
+  }
+
+  .about-section-video-container {
+    padding: 0.5rem; /* Reduce padding for smaller screens */
+    max-width: 100%; /* Allow the container to take full width */
+    border-radius: 8px; /* Slightly smaller rounded corners */
+  }
+
+  .homepage-video {
+    max-width: 250px; /* Ensure the video scales to fit the screen */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 6px; /* Slightly smaller rounded corners */
+  }
+
+  .about-section-text-container {
+    flex: 1;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0rem;
+  }
+
+  #email {
+    padding: 0.5rem;
+    font-size: 0.875rem;
   }
 }
