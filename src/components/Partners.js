@@ -1,6 +1,6 @@
 import React from "react";
-import GooglePartner from "../assets/Google.png";
-import ViatorPartner from "../assets/Viator.png";
+import GooglePartner from "../assets/google.svg";
+import ViatorPartner from "../assets/viator.svg";
 import "./Styles/Partners.css";
 
 const Partners = () => {
