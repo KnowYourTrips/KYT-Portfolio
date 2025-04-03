@@ -12,7 +12,7 @@ const About = () => {
       {/* <div className="about-section-image-container"> */}
       <div className="about-section-video-container">
         {/* <img src={AboutImage} alt="" className="homepage-image" /> */}
-        <video className="homepage-video" autoPlay loop muted>
+        <video className="homepage-video" autoPlay loop muted playsInline>
           <source src={AboutVideo} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
