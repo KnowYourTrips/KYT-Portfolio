@@ -1,6 +1,6 @@
 import React from "react";
-import Logo from "../assets/logo.png";
-import CompanyName from "../assets/CompanyName.png";
+import Logo from "../assets/logo.svg";
+import CompanyName from "../assets/CompanyName.svg";
 import { IoMail } from "react-icons/io5";
 
 const Footer = () => {
