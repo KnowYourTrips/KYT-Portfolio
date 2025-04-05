@@ -134,7 +134,7 @@ nav {
 
 .secondary-button {
   padding: 1rem 2.5rem;
-  background-color: #fe9e0d;
+  background-color: #5854f4;
   outline: none;
   border: none;
   border-radius: 5rem;
@@ -713,15 +713,15 @@ nav {
   }
 
   .contact-form-container button {
-    width: 50px;
-    height: auto;
-    padding: 0.5rem 1rem;
+    width: 60px;
+    height: 40px;
+    padding: 0.25rem 0.5rem;
     font-size: 0.875rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 4px;
-    background-color: #fe9e0d;
+    border-radius: 10px;
+    background-color: #5854f4;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -733,12 +733,13 @@ nav {
   }
 
   .contact-form-container button::after {
-    content: "OK";
+    content: "Submit";
     visibility: visible;
     position: absolute;
     left: 50%;
     transform: translate(-50%);
     padding: 0;
+    font-size: 0.7rem;
   }
 
   .about-section-video-container {

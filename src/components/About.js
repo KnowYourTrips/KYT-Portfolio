@@ -27,7 +27,7 @@ const About = () => {
           booking, personalized recommendations, and hassle-free itineraries.
         </p>
         <p className="primary-text">
-          Real-time updates, convenient flight and airport taxis booking, and
+          Real-time updates, convenient flights with airport taxi booking, and
           secure payment options for a stress-free travel experience.
         </p>
       </div>

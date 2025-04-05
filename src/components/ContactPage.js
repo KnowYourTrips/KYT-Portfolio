@@ -32,16 +32,16 @@ const ContactPage = () => {
       <h2>Contact Us</h2>
       <form ref={form} onSubmit={sendEmail} className="contact-form">
         <label htmlFor="name">Name</label>
-        <input type="text" id="name" name="name" required />
+        <input type="text" id="name" name="name" placeholder="What do we call you?" required />
 
         <label htmlFor="email">Email</label>
-        <input type="email" id="email" name="email" required />
+        <input type="email" id="email" name="email" placeholder="Where can we reach you?" required />
 
         <label htmlFor="subject">Subject</label>
-        <input type="text" id="subject" name="title" required />
+        <input type="text" id="subject" name="title" placeholder="What's your question about?" required />
 
         <label htmlFor="message">Message</label>
-        <textarea id="message" name="content" rows="5" required></textarea>
+        <textarea id="message" name="content" rows="5" placeholder="How can we help you?" required></textarea>
 
         <button type="submit">Send Message</button>
       </form>
