@@ -45,7 +45,7 @@ const Contact = () => {
   return (
     <div className="contact-page-wrapper">
       <h1 className="primary-heading">Want to travel stress-free?</h1>
-      <h1 className="primary-heading">Subscribe to get our app</h1>
+      <h1 className="primary-heading">Subscribe to know more</h1>
       <form name="submit-to-google-sheet" id="contact-form" onSubmit={handleSubmit}>
         <div className="contact-form-container">
           <input
