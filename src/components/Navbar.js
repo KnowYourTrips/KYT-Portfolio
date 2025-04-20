@@ -48,7 +48,7 @@ const Navbar = () => {
           <>
             <a href="/#work">How it Works</a>
             <a href="/#partners">Partners</a>
-            <a href="/#contact">Get App</a>
+            <a href="/#download">Get App</a>
             <a href="/privacy">Privacy</a>
             <a href="/contact">Contact</a>
           </>

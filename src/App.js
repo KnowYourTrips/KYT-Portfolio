@@ -10,6 +10,7 @@ import PreLoader from './components/PreLoader';
 import Privacy from './components/Privacy';
 import Partners from './components/Partners';
 import ContactPage from './components/ContactPage';
+import DownloadApp from './components/DownloadApp';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 
 import Itinerary from "./assets/Itinerary.png";
@@ -63,6 +64,9 @@ function App() {
             </div>
             <div id='partners'>
               <Partners />
+            </div>
+            <div id='download'>
+              <DownloadApp />
             </div>
             <div id='contact'>
               <Contact />
