@@ -2,6 +2,7 @@ import React from "react";
 import BannerBackground from "../assets/home-banner-background.png";
 import BannerImage from "../assets/home-banner-image.png";
 import AppStoreLogo from "../assets/app-store-badge.svg";
+import PlayStoreLogo from "../assets/play-store-badge.png";
 
 const Home = () => {
   return (
@@ -24,6 +25,14 @@ const Home = () => {
                 target="_blank"
                 rel="noopener noreferrer"            >
                 <img src={AppStoreLogo} alt="Download on the App Store" className="app-store-logo" />
+              </a>
+            </div>
+            <div className="play-store-logo-container">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.KnowYourTrips.kyt_fe_new&pcampaignid=web_share"
+                target="_blank"
+                rel="noopener noreferrer"            >
+                <img src={PlayStoreLogo} alt="Download on the Play Store" className="app-store-logo" />
               </a>
             </div>
             <div className="product-hunt-badge-container">
